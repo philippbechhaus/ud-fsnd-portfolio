@@ -3,6 +3,26 @@ body {
   color: #555555;
   font-weight: 300;
 }
+.container {
+  display: grid;
+  flex-wrap: wrap;
+}
+.hero-picture {
+  border-radius: 50%;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.content {
+  text-align: center;
+}
+.quote {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff2e52;
+}
 .text-muted {
   color: #888888;
 }
@@ -10,8 +30,18 @@ body {
   font-weight: 100;
 }
 .title-super {
-  font-size: 60px;
+  font-size: 24px;
+}
+.title-header {
+  font-size: 24px;
 }
 .title-logo {
   margin-top: 20px;
 }
+h1 {
+  margin-top: 30px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
