@@ -12,11 +12,10 @@ module.exports = function(grunt) {
     responsive_images: {
       dev: {
         options: {
-          engine: 'im',
           sizes: [{
             /* Change these */
-            width: 200,
-            suffix: '_medium_2x',
+            width: 100,
+            suffix: '_small_2x',
             quality: 100
           }]
         },
@@ -27,7 +26,7 @@ module.exports = function(grunt) {
         */
         files: [{
           expand: true,
-          src: ['profile.{gif,jpg,png}'],
+          src: ['social*.{gif,jpg,png}'],
           cwd: 'img_src/',
           dest: 'img/'
         }]
