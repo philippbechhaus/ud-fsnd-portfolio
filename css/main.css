@@ -3,10 +3,12 @@ body {
   color: #222222;
   font-weight: 300;
 }
+
 .container {
   display: grid;
   flex-wrap: wrap;
 }
+
 .hero-picture {
   border-radius: 50%;
   width: 100px;
@@ -19,45 +21,72 @@ body {
   text-align: center;
   color: white !important;
 }
+.hero-content {
+  text-align: center;
+  color: white !important;
+}
+
 .card {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding-left: 60px;
   padding-right: 60px;
 }
+.card-sub {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .content-uneven {
   text-align: left;
 }
+
 .content-even {
   text-align: right;
 }
+
+.university-degree {
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .quote {
   font-size: 32px;
   font-weight: bold;
   color: #ff2e52;
 }
+
 .img-social {
   width:25px;
   display: inline-block;
 }
+
 .footer {
   text-align: center;
 }
+
 .text-muted {
   color: #888888;
 }
+
 .text-thin {
   font-weight: 100;
 }
+
 .title-super {
   font-size: 24px;
 }
+
 .title-header {
   font-size: 24px;
 }
+
 .title-logo {
   margin-top: 20px;
 }
+
 h1 {
   margin-top: 30px;
 }
@@ -65,3 +94,10 @@ h1 {
 .box-shadow {
     -webkit-box-shadow: 0 0 10px 0 #F2F3F4);
     box-shadow: 0 0 10px 0 #F2F3F4;
+}
+.github-cat {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
