@@ -17,67 +17,27 @@
   	   $('.profile-pic').initial({width:46,height:46,fontSize:20,fontWeight:400 });
     })
     </script>
-    <style media="screen">
-      @media screen and (max-width: 991px) {
-        .title-logo {
-          display: none;
-        }
-        .project-desc {
-          text-align: left;
-        }
-      }
-      @media screen and (min-width: 450px) and (max-width: 991px) {
-        h2 {
-          font-size: 22px;
-        }
-        h3 {
-          font-size: 18px;
-        }
-      }
-      @media screen and (max-width: 585px) {
-        .university-logo {
-          display: none;
-        }
-        .project-desc {
-          text-align: center;
-        }
-      }
-      @media screen and (max-width: 449px) {
-        .card {
-          padding-left: 30px;
-          padding-right: 30px;
-          margin-top: 15px;
-          margin-bottom: 5px;
-        }
-        .hero-content {
-          font-size: 12px;
-        }
-        h2 {
-          font-size: 20px;
-        }
-        h3 {
-          font-size: 16px;
-        }
-      }
-    </style>
   </head>
   <body>
+
     <div class="container">
-      <div class="row">
+
+      <header class="row">
         <div class="col-md-1">
           <img class="title-logo profile-pic media-object pull-left img-rounded" data-name="P" data-color="#00d0be" alt="initial">
         </div>
         <div class="col-md-11 text-left text-uppercase">
           <h1 class="text-thin title-header">Philipp Bechhaus</h1>
         </div>
-      </div>
+      </header>
 
       <div class="row">
         <div class="col-md-12 line-header">
           <hr>
         </div>
       </div>
-      <div class="container" style="background-color: #6924d7">
+
+      <nav class="container first-box">
         <div class="row">
           <div class="col-md-12">
             <br>
@@ -98,7 +58,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </nav>
 
       <div class="row">
         <div class="col-md-12">
@@ -106,7 +66,7 @@
         </div>
       </div>
 
-      <div class="container box-shadow" style="background-color: #FFFFFF">
+      <section class="container box-shadow second-box">
         <div class="row card">
           <div class="col-md-3">
             <img class="university-logo" src="img/logo_tum-100_small_1x.png" alt="TUM-logo">
@@ -257,14 +217,14 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div class="row">
         <div class="col-md-12">
           <h2 class="text-thin">Udacity Projects</h2>
         </div>
       </div>
 
-      <div class="row text-center">
+      <section class="row text-center">
         <div class="col-md-6">
           <img class="img-responsive" data-toggle="modal" data-target="#project1" src="img/rocket.svg" alt="rocketship">
           <div class="project-desc">
@@ -296,7 +256,7 @@
             <p>Flick the <strong>Satellite</strong></p>
           </div>
         </div>
-      </div>
+      </section>
 
     <div class="row">
       <div class="col-md-12 line-header">
@@ -304,15 +264,13 @@
       </div>
     </div>
 
-    <div class="container" style="background-color: #6924d7">
+    <footer class="container third-box">
       <div class="row card">
         <div class="col-md-12">
-          <div class="hero-text">
-            <p style="text-align: center">
-              <span class="quote">“</span>
-                Find me on Social Media
-            </p>
-          </div>
+          <p class="hero-text">
+            <span class="quote">“</span>
+              Find me on Social Media
+          </p>
         </div>
       </div>
       <div class="row card">
@@ -325,7 +283,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   </div>
 
     <!-- Modal -->

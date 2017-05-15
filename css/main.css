@@ -4,6 +4,63 @@ body {
   font-weight: 300;
 }
 
+.first-box {
+  background-color: #6924d7;
+}
+
+.second-box {
+  background-color: white;
+}
+
+.third-box {
+  background-color: #6924d7;
+}
+
+@media screen and (max-width: 991px) {
+  .title-logo {
+    display: none;
+  }
+  .project-desc {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 991px) {
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .university-logo {
+    display: none;
+  }
+  .project-desc {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .card {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .hero-content {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+}
+
 .container {
   display: grid;
   flex-wrap: wrap;
@@ -21,6 +78,7 @@ body {
   text-align: center;
   color: white !important;
 }
+
 .hero-content {
   text-align: center;
   color: white !important;
@@ -32,6 +90,7 @@ body {
   padding-left: 60px;
   padding-right: 60px;
 }
+
 .card-sub {
   margin-top: 10px;
   margin-bottom: 10px;
